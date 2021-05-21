@@ -1,7 +1,91 @@
 fileFormatVersion: 2
 guid: 88669e66c4b88a84ab6560244ba76b58
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -360854487704925183
+    second: FuegoBosque1_0
+  - first:
+      213: -6660292824479793253
+    second: FuegoBosque1_1
+  - first:
+      213: -1868932888168373868
+    second: FuegoBosque1_2
+  - first:
+      213: 2323899861858727921
+    second: FuegoBosque1_3
+  - first:
+      213: -4413736202104962836
+    second: FuegoBosque1_4
+  - first:
+      213: -8778134486271926606
+    second: FuegoBosque1_5
+  - first:
+      213: -2747000500607318180
+    second: FuegoBosque1_6
+  - first:
+      213: 7108290506808458875
+    second: FuegoBosque1_7
+  - first:
+      213: 613440683005479760
+    second: FuegoBosque1_8
+  - first:
+      213: -5277019313727558243
+    second: FuegoBosque1_9
+  - first:
+      213: 748815090266626505
+    second: FuegoBosque1_10
+  - first:
+      213: -5871738449408568196
+    second: FuegoBosque1_11
+  - first:
+      213: -6824003141217052021
+    second: FuegoBosque1_12
+  - first:
+      213: 2247720429437960688
+    second: FuegoBosque1_13
+  - first:
+      213: 5506000692516405428
+    second: FuegoBosque1_14
+  - first:
+      213: -8359971643942991046
+    second: FuegoBosque1_15
+  - first:
+      213: -7375212416908839517
+    second: FuegoBosque1_16
+  - first:
+      213: -7958564751577436691
+    second: FuegoBosque1_17
+  - first:
+      213: 6249798298697047924
+    second: FuegoBosque1_18
+  - first:
+      213: 7037327528092411812
+    second: FuegoBosque1_19
+  - first:
+      213: 2853247322810104024
+    second: FuegoBosque1_20
+  - first:
+      213: -6250221215202923941
+    second: FuegoBosque1_21
+  - first:
+      213: -6448330192793759756
+    second: FuegoBosque1_22
+  - first:
+      213: -7857374054199769851
+    second: FuegoBosque1_23
+  - first:
+      213: -4681342285394247567
+    second: FuegoBosque1_24
+  - first:
+      213: -3976204092015914068
+    second: FuegoBosque1_25
+  - first:
+      213: -1390985037029550635
+    second: FuegoBosque1_26
+  - first:
+      213: 6186965790263611295
+    second: FuegoBosque1_27
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -121,7 +205,595 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: FuegoBosque1_0
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 808
+        width: 412
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10c0ebc51ccfdfaf0800000000000000
+      internalID: -360854487704925183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FuegoBosque1_1
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 827
+        width: 171
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9f7cc0c6f2e193a0800000000000000
+      internalID: -6660292824479793253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FuegoBosque1_2
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 842
+        width: 459
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 491eda3b0773016e0800000000000000
+      internalID: -1868932888168373868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FuegoBosque1_3
+      rect:
+        serializedVersion: 2
+        x: 1226
+        y: 978
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f73baf9c96204020800000000000000
+      internalID: 2323899861858727921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FuegoBosque1_4
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 853
+        width: 186
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce080452f424fb2c0800000000000000
+      internalID: -4413736202104962836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FuegoBosque1_5
+      rect:
+        serializedVersion: 2
+        x: 1567
+        y: 815
+        width: 160
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bed72b713dcd2680800000000000000
+      internalID: -8778134486271926606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FuegoBosque1_6
+      rect:
+        serializedVersion: 2
+        x: 1843
+        y: 974
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c570b735991b0e9d0800000000000000
+      internalID: -2747000500607318180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FuegoBosque1_7
+      rect:
+        serializedVersion: 2
+        x: 1854
+        y: 989
+        width: 24
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7e799afd88b5a260800000000000000
+      internalID: 7108290506808458875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FuegoBosque1_8
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 967
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05b80511d01638800800000000000000
+      internalID: 613440683005479760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FuegoBosque1_9
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 953
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9da46c94e244c6b0800000000000000
+      internalID: -5277019313727558243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FuegoBosque1_10
+      rect:
+        serializedVersion: 2
+        x: 1733
+        y: 787
+        width: 187
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c95bc17b53546a00800000000000000
+      internalID: 748815090266626505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FuegoBosque1_11
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 909
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c74dff47df4638ea0800000000000000
+      internalID: -5871738449408568196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FuegoBosque1_12
+      rect:
+        serializedVersion: 2
+        x: 1186
+        y: 914
+        width: 33
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8a9b955c454c41a0800000000000000
+      internalID: -6824003141217052021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FuegoBosque1_13
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 803
+        width: 31
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f1c90752d1813f10800000000000000
+      internalID: 2247720429437960688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FuegoBosque1_14
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 799
+        width: 36
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b0ce72357e396c40800000000000000
+      internalID: 5506000692516405428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FuegoBosque1_15
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 803
+        width: 62
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3b8076351a6bfb80800000000000000
+      internalID: -8359971643942991046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FuegoBosque1_16
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 810
+        width: 15
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a53913e16bf5a990800000000000000
+      internalID: -7375212416908839517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FuegoBosque1_17
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 798
+        width: 98
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ded2844568f7d8190800000000000000
+      internalID: -7958564751577436691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FuegoBosque1_18
+      rect:
+        serializedVersion: 2
+        x: 1636
+        y: 809
+        width: 36
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47f9da7907ebbb650800000000000000
+      internalID: 6249798298697047924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FuegoBosque1_19
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 426
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a7a608f91c99a160800000000000000
+      internalID: 7037327528092411812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FuegoBosque1_20
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 180
+        width: 315
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d83e6ca255c89720800000000000000
+      internalID: 2853247322810104024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FuegoBosque1_21
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 10
+        width: 397
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5a283c7be0c249a0800000000000000
+      internalID: -6250221215202923941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FuegoBosque1_22
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 293
+        width: 44
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ff0a18badde286a0800000000000000
+      internalID: -6448330192793759756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FuegoBosque1_23
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 356
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5054d088deff4f290800000000000000
+      internalID: -7857374054199769851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FuegoBosque1_24
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 237
+        width: 7
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1708f078ef7880fb0800000000000000
+      internalID: -4681342285394247567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FuegoBosque1_25
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 229
+        width: 44
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca3dfe4f17fa1d8c0800000000000000
+      internalID: -3976204092015914068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FuegoBosque1_26
+      rect:
+        serializedVersion: 2
+        x: 1402
+        y: 0
+        width: 305
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d558f38a7a32bce0800000000000000
+      internalID: -1390985037029550635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FuegoBosque1_27
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 15
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9f08263b948cd550800000000000000
+      internalID: 6186965790263611295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
