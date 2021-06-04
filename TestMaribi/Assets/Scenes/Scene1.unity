@@ -1461,12 +1461,12 @@ PrefabInstance:
     - target: {fileID: 6673516444473593748, guid: dc795b370aea2214fb2f1cc9784ec80c,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 120
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 6673516444473593748, guid: dc795b370aea2214fb2f1cc9784ec80c,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 120
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 6673516444473593748, guid: dc795b370aea2214fb2f1cc9784ec80c,
         type: 3}
@@ -1506,12 +1506,12 @@ PrefabInstance:
     - target: {fileID: 6673516444473593748, guid: dc795b370aea2214fb2f1cc9784ec80c,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -130.29999
+      value: -153
       objectReference: {fileID: 0}
     - target: {fileID: 6673516444473593748, guid: dc795b370aea2214fb2f1cc9784ec80c,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 90.04001
+      value: 247.70001
       objectReference: {fileID: 0}
     - target: {fileID: 6673516444473593748, guid: dc795b370aea2214fb2f1cc9784ec80c,
         type: 3}
@@ -1533,6 +1533,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: Button
       objectReference: {fileID: 0}
+    - target: {fileID: 6673516445698906750, guid: dc795b370aea2214fb2f1cc9784ec80c,
+        type: 3}
+      propertyPath: m_FontData.m_VerticalOverflow
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6673516445698906750, guid: dc795b370aea2214fb2f1cc9784ec80c,
+        type: 3}
+      propertyPath: m_FontData.m_HorizontalOverflow
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6673516445698906751, guid: dc795b370aea2214fb2f1cc9784ec80c,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -10.099998
+      objectReference: {fileID: 0}
+    - target: {fileID: 6673516445698906751, guid: dc795b370aea2214fb2f1cc9784ec80c,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 5.050001
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc795b370aea2214fb2f1cc9784ec80c, type: 3}
 --- !u!1 &6673516444437088320 stripped
@@ -1553,3 +1573,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0433d60391f41a408f1fc04ec6b8df6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &6673516444437088322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6673516444437088320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5016527a8edb12e46bc9636c336f04ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isActiveByTime: 1
+  timeToActive: 10

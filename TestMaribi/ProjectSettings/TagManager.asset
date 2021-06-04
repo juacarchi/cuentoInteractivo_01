@@ -5,6 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - WaterLake
+  - Fuego1
+  - Fuego2
+  - Fuego3
+  - Fire
   layers:
   - Default
   - TransparentFX
