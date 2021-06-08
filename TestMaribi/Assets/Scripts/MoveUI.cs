@@ -51,16 +51,25 @@ public class MoveUI : MonoBehaviour, IDragHandler, IDropHandler
         {
             fuego1 = other.GetComponent<SpriteRenderer>();
             Destroy(this.gameObject, 1.5f);
+            Collider2D collider = GetComponent<Collider2D>();
+            Destroy(collider);
+            GameManager.instance.ApagaLlama();
         }
         else if (other.CompareTag("Fuego2"))
         {
             fuego2 = other.GetComponent<SpriteRenderer>();
             Destroy(this.gameObject, 1.5f);
+            Collider2D collider = GetComponent<Collider2D>();
+            Destroy(collider);
+            GameManager.instance.ApagaLlama();
         }
         else if (other.CompareTag("Fuego3"))
         {
             fuego3 = other.GetComponent<SpriteRenderer>();
             Destroy(this.gameObject, 1.5f);
+            Collider2D collider = GetComponent<Collider2D>();
+            Destroy(collider);
+            GameManager.instance.ApagaLlama();
         }
 
     }
@@ -68,31 +77,37 @@ public class MoveUI : MonoBehaviour, IDragHandler, IDropHandler
     {
         if (fuego1 != null)
         {
-            if (fuego1.color.a > 0)
+            if (fuego1.color.a > -0.1f)
             {
+                Destroy(fuego1.gameObject, 1.5f);
                 alpha1 -= Time.deltaTime * velocityFade;
                 fuego1.color = new Color(1, 1, 1, alpha1);
                 vaso.color = new Color(1, 1, 1, alpha1);
             }
-            
+
+
         }
         else if (fuego2 != null)
         {
             if (fuego2.color.a > 0)
             {
+                Destroy(fuego2.gameObject, 1.5f);
                 alpha2 -= Time.deltaTime * velocityFade;
                 fuego2.color = new Color(1, 1, 1, alpha2);
                 vaso.color = new Color(1, 1, 1, alpha2);
             }
+
         }
         else if (fuego3 != null)
         {
             if (fuego3.color.a > 0)
             {
+                Destroy(fuego3.gameObject, 1.5f);
                 alpha3 -= Time.deltaTime * velocityFade;
                 fuego3.color = new Color(1, 1, 1, alpha3);
                 vaso.color = new Color(1, 1, 1, alpha3);
             }
+
         }
     }
 

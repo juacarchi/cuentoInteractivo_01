@@ -133,6 +133,7 @@ GameObject:
   - component: {fileID: 48980096}
   - component: {fileID: 48980095}
   - component: {fileID: 48980094}
+  - component: {fileID: 48980097}
   m_Layer: 5
   m_Name: RawImage
   m_TagString: Untagged
@@ -227,6 +228,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 48980092}
   m_CullTransparentMesh: 0
+--- !u!114 &48980097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 48980092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0c55423c54aa164c8e1005c7f0a2284, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _videoPlayer: {fileID: 48980094}
 --- !u!1001 &152124742
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -262,7 +276,7 @@ PrefabInstance:
     - target: {fileID: 6673516444473593747, guid: dc795b370aea2214fb2f1cc9784ec80c,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6673516444473593747, guid: dc795b370aea2214fb2f1cc9784ec80c,
         type: 3}
