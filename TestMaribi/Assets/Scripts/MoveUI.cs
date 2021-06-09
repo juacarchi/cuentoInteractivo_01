@@ -44,6 +44,7 @@ public class MoveUI : MonoBehaviour, IDragHandler, IDropHandler
         if (other.CompareTag("WaterLake"))
         {
             LlenaAgua(this.gameObject);
+            SFXManager.instance.PlaySFX(SFXManager.instance.soundCorrect);
         }
 
 
@@ -54,6 +55,7 @@ public class MoveUI : MonoBehaviour, IDragHandler, IDropHandler
             Collider2D collider = GetComponent<Collider2D>();
             Destroy(collider);
             GameManager.instance.ApagaLlama();
+            SFXManager.instance.PlaySFX(SFXManager.instance.soundCorrect);
         }
         else if (other.CompareTag("Fuego2"))
         {
@@ -62,6 +64,7 @@ public class MoveUI : MonoBehaviour, IDragHandler, IDropHandler
             Collider2D collider = GetComponent<Collider2D>();
             Destroy(collider);
             GameManager.instance.ApagaLlama();
+            SFXManager.instance.PlaySFX(SFXManager.instance.soundCorrect);
         }
         else if (other.CompareTag("Fuego3"))
         {
@@ -70,6 +73,7 @@ public class MoveUI : MonoBehaviour, IDragHandler, IDropHandler
             Collider2D collider = GetComponent<Collider2D>();
             Destroy(collider);
             GameManager.instance.ApagaLlama();
+            SFXManager.instance.PlaySFX(SFXManager.instance.soundCorrect);
         }
 
     }
@@ -115,6 +119,8 @@ public class MoveUI : MonoBehaviour, IDragHandler, IDropHandler
     {
         Image imageVaso = GetComponent<Image>();
         imageVaso.sprite = GameManager.instance.vasoLleno;
+        Collider2D collider = go.GetComponent<Collider2D>();
+        collider.enabled = false;
         GameManager.instance.LlenaVaso();
     }
 }

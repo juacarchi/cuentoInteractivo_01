@@ -31,6 +31,7 @@ public class GameManager : MonoBehaviour
             Debug.Log("Victoria");
             llamasApagadas = 0;
             canvasVictory.SetActive(true);
+            SFXManager.instance.PlaySFX(SFXManager.instance.soundVictory);
         }
     }
     public void LlenaVaso()
