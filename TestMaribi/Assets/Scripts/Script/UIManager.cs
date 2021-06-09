@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 public class UIManager : MonoBehaviour
 {
     public Image imageFade;
+    public bool isCorrectVolume=true;
     public static UIManager instance;
     private void Awake()
     {
@@ -32,6 +33,11 @@ public class UIManager : MonoBehaviour
         for (float i = 0; i < 1; i += Time.deltaTime * 0.5f)
         {
             imageFade.color = new Color(0, 0, 0, i);
+            if (SoundManager.instance.GetVolume() > 0.08f&&!isCorrectVolume)
+            {
+                SoundManager.instance.SetVolume(SoundManager.instance.GetVolume()-i);
+            }
+            else { isCorrectVolume = true; }
             yield return null;
         }
         imageFade.color = new Color(0, 0, 0, 1);

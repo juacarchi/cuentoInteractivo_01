@@ -10,6 +10,7 @@ public class SoundManager : MonoBehaviour
     public AudioClip soundMenu;
     public AudioClip sounLevel;
     public AudioSource audioSource;
+    float volume;
     //Aqui podemos meter una serie de AudioClip para poder llamarlos desde otros elementos.
     private void Awake()
     {
@@ -23,6 +24,7 @@ public class SoundManager : MonoBehaviour
         {
             Destroy(this.gameObject);
         }
+        volume = audioSource.volume;
     }
     //Método para reproducir un AudioClip que le pasemos al SoundManager.
     public void PlaySFX(AudioClip audioClip)
@@ -34,5 +36,10 @@ public class SoundManager : MonoBehaviour
     public void SetVolume(float volume)
     {
         audioSource.volume = volume;
+        this.volume = volume;
+    }
+    public float GetVolume()
+    {
+        return this.volume;
     }
 }

@@ -13,6 +13,8 @@ public class Menu : MonoBehaviour
     }
     public void ReturnMenu()
     {
+        SoundManager.instance.SetVolume(0.25f);
+        UIManager.instance.isCorrectVolume = true;
         SceneManager.LoadScene(0);
     }
     public void Exit()

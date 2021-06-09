@@ -18,4 +18,8 @@ public class Intro : MonoBehaviour
     {
         UIManager.instance.StartFadeImageToBlack(sceneToLoad);
     }
+    public void SetCorrectVolume()
+    {
+        UIManager.instance.isCorrectVolume = false;
+    }
 }
